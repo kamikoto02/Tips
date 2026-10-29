@@ -17,14 +17,26 @@ body {
     margin: 0;
 }
 
-
+.title {
+    margin-bottom: 20px;
+    background-color: #877f58;
+    color: #e8e8e6 ;
+    border-radius: 5px;
+    padding: 0 10px;
+    display: inline-block;
+    
+}
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     max-width: 1080px;
     margin: 80px auto;
     padding: 0 10px;
+    text-align: center;
+}
+.content {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
