@@ -64,6 +64,8 @@ header {
     display: flex;
     align-items: center;
     text-transform: capitalize;
+    z-index: 2;
+    box-shadow: 3px 16px 10px -17px rgba(0,0,0,0.74);
 }
 
 .header-content {
